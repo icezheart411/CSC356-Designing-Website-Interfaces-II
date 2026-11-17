@@ -1,0 +1,61 @@
+/* Main styles for main site */
+body{
+    background-color: black;
+    color: lightgray;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+/* styles for whole unordered list */
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+/* styles only for anchors */
+nav a{
+    background-color: gray;
+    color: aqua;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav a:hover{
+    color: blue;
+
+}
+/* just to center up the all text */
+main{
+    text-align: center;
+
+}
+div{
+    color: aqua;
+    padding: 10px;
+    border: 2px;
+
+}
+/* made the error message class with different styles to stand out a bit */
+.error-msg{
+    color: greenyellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+label{
+    padding: 5px;
+    text-align: left;
+}
+input{
+    color: blue;
+    border: 5px;
+    background-color: lightgray;
+}
+button{
+    color: blue;
+    background-color: aqua;
+}
